@@ -25,7 +25,7 @@ class AiCodeHelperApplicationTests {
     void chatWithMessage() {
         UserMessage userMessage = UserMessage.from(
                 TextContent.from("描述图片"),
-                ImageContent.from("图片/申屠晗签名.png")
+                ImageContent.from("图片/.png")
         );
         aiCodeHelper.chatWithMessage(userMessage);
     }
